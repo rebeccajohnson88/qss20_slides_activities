@@ -1,2 +1,3 @@
-# qss20_slides_activities
-Repo for slides and activities for qss 20
+# QSS20 public repo
+
+This repo has content for the Spring 2021 iteration of QSS20: Modern Statistical Computing.
