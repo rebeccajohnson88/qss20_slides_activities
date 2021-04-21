@@ -34,3 +34,11 @@ These are jupyter notebook-based activities to practice Python or other concepts
     - Loop to find matches within a broader pool of data
     - Function to find matches within a broader pool of data
 
+- [03_merging_session1.ipynb](https://github.com/rebeccajohnson88/qss20_slides_activities/blob/main/activities/03_merging_session1.ipynb)
+  - **Data**: San Diego business tax certificate data; Census NAICS code data
+  - **Concepts covered**:
+    - Data cleaning such as extraneous rows/columns
+    - `pd.merge` and different types of exact joins using join keys
+    - Post-merge diagnostics
+    
+
