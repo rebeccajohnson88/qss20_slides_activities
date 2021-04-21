@@ -38,7 +38,9 @@ These are jupyter notebook-based activities to practice Python or other concepts
   - **Data**: San Diego business tax certificate data; Census NAICS code data
   - **Concepts covered**:
     - Data cleaning such as extraneous rows/columns
+    - Recasting join cols to allow join (e.g., converting `int` to character)
     - `pd.merge` and different types of exact joins using join keys
     - Post-merge diagnostics
+    
     
 
