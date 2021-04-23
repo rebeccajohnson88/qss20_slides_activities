@@ -42,5 +42,13 @@ These are jupyter notebook-based activities to practice Python or other concepts
     - `pd.merge` and different types of exact joins using join keys
     - Post-merge diagnostics
     
+- [04_basicregex_formerging.ipynb](https://github.com/rebeccajohnson88/qss20_slides_activities/blob/main/activities/04_basicregex_formerging.ipynb)
+ - **Data**: Food Research Action Center (FRAC) data on district and school's election of community eligibility provision (CEP) for Free or Reduced Price Lunch (FRPL)
+ - **Concepts covered**: 
+   - Pattern construction using `re` module
+   - `re.sub` for replacement
+   - `re.findall` 
+   - `re.match` and how to work with match objects using `.group()`
+   - Throughout, review of list comprehension 
     
 
