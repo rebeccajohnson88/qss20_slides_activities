@@ -51,7 +51,7 @@ These are jupyter notebook-based activities to practice Python or other concepts
      - `re.match` and how to work with match objects using `.group()`
      - Throughout, review of list comprehension 
 
-- [https://github.com/rebeccajohnson88/qss20_slides_activities/blob/main/activities/05_merging_session2_blank.ipynb](05_merging_session2_blank.ipynb) 
+- [05_merging_session2_blank.ipynb](https://github.com/rebeccajohnson88/qss20_slides_activities/blob/main/activities/05_merging_session2_blank.ipynb)
   - **Data**: public SD business tax certificate data; public PPP loan data on large loans
   - **Concepts covered**:
     - Regex for string cleaning
