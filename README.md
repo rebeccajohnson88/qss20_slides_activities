@@ -58,4 +58,5 @@ These are jupyter notebook-based activities to practice Python or other concepts
     - String distance/similarity measures: edit distance, jaccard, jarowinkler
     - `recordlinkage` package and steps in fuzzy/probabilistic matching
   - **Activity**: [05_merging_session2_activityblank.ipynb](https://github.com/rebeccajohnson88/qss20_slides_activities/blob/main/activities/05_merging_session2_activityblank.ipynb)
+  - **Solutions for activity**: [05_merging_session2_activitysolutions.ipynb](https://github.com/rebeccajohnson88/qss20_slides_activities/blob/main/activities/05_merging_session2_activitysolutions.ipynb)
 
