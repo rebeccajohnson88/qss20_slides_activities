@@ -60,3 +60,11 @@ These are jupyter notebook-based activities to practice Python or other concepts
   - **Activity**: [05_merging_session2_activityblank.ipynb](https://github.com/rebeccajohnson88/qss20_slides_activities/blob/main/activities/05_merging_session2_activityblank.ipynb)
   - **Solutions for activity**: [05_merging_session2_activitysolutions.ipynb](https://github.com/rebeccajohnson88/qss20_slides_activities/blob/main/activities/05_merging_session2_activitysolutions.ipynb)
 
+- [06_textasdata_partI_textmining_examplecode.ipynb](https://github.com/rebeccajohnson88/qss20_slides_activities/blob/main/activities/06_textasdata_partI_textmining_examplecode.ipynb)
+
+  - **Data**: simplified data from airbnb NYC listings. Stored in `public_data/airbnb_text.zip`
+  - **Concepts covered**:
+    - Scoring based on dictionary of words
+    - Part of speech tagging using `nltk`
+    - Named entity tagging using `spaCy`
+    - Sentiment analysis using `VADER`
