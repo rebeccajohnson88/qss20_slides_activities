@@ -68,3 +68,13 @@ These are jupyter notebook-based activities to practice Python or other concepts
     - Part of speech tagging using `nltk`
     - Named entity tagging using `spaCy`
     - Sentiment analysis using `VADER`
+
+- [06_textasdata_partII_topicmodeling_examplecode.ipynb](https://github.com/rebeccajohnson88/qss20_slides_activities/blob/main/activities/06_textasdata_partII_topicmodeling_examplecode.ipynb)
+  - **Data**: simplified airbnb listings
+  - **Concepts covered**:
+    - Using `sklearn` to create a unigram document-term matrix
+    - LDA topic modeling using `gensim`
+    - Visualizing topics 
+    - Obtaining top words per topic using `gensim`
+    - Obtaining document-level topic probabilities using `gensim`
+  - **Solutions code**: [06_textasdata_partII_topicmodeling_solution.ipynb](https://github.com/rebeccajohnson88/qss20_slides_activities/blob/main/activities/06_textasdata_partII_topicmodeling_solution.ipynb)
