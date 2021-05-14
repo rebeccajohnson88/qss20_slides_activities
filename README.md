@@ -100,9 +100,8 @@ These are jupyter notebook-based activities to practice Python or other concepts
   - **Solutions code**: [07_apis_examplecode_solutions.ipynb](https://github.com/rebeccajohnson88/qss20_slides_activities/blob/main/activities/07_apis_examplecode_solutions.ipynb)
 
 - [07_apis_examplecode_twitter.ipynb](https://github.com/rebeccajohnson88/qss20_slides_activities/blob/main/activities/07_apis_examplecode_twitter.ipynb)
-
- - **API**: `tweepy` wrapper for Twitter API
- - **Concepts covered**:
+  - **API**: `tweepy` wrapper for Twitter API
+  - **Concepts covered**:
     - Authenticating
     - Using `Cursor` class
     - searching for tweets based on hashtag using `search` method
