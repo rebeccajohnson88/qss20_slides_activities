@@ -6,6 +6,8 @@ This repo has content for the Spring 2021 iteration of QSS20: Modern Statistical
 
 These are jupyter notebook-based activities to practice Python or other concepts:
 
+### Data wrangling using pandas
+
 - [00_latex_output_examples_solutions.ipynb](https://github.com/rebeccajohnson88/qss20_slides_activities/blob/main/activities/00_latex_output_examples_solutions.ipynb)
   - **Data**: DC crime reports in 2020
   - **Concepts covered**:
@@ -34,6 +36,8 @@ These are jupyter notebook-based activities to practice Python or other concepts
     - Loop to find matches within a broader pool of data
     - Function to find matches within a broader pool of data
 
+### Merging: exact merging and fuzzy/probabilistic record linkage
+
 - [03_merging_session1.ipynb](https://github.com/rebeccajohnson88/qss20_slides_activities/blob/main/activities/03_merging_session1.ipynb)
   - **Data**: San Diego business tax certificate data; Census NAICS code data
   - **Concepts covered**:
@@ -60,6 +64,9 @@ These are jupyter notebook-based activities to practice Python or other concepts
   - **Activity**: [05_merging_session2_activityblank.ipynb](https://github.com/rebeccajohnson88/qss20_slides_activities/blob/main/activities/05_merging_session2_activityblank.ipynb)
   - **Solutions for activity**: [05_merging_session2_activitysolutions.ipynb](https://github.com/rebeccajohnson88/qss20_slides_activities/blob/main/activities/05_merging_session2_activitysolutions.ipynb)
 
+
+### Intro to text as data
+
 - [06_textasdata_partI_textmining_examplecode.ipynb](https://github.com/rebeccajohnson88/qss20_slides_activities/blob/main/activities/06_textasdata_partI_textmining_examplecode.ipynb)
 
   - **Data**: simplified data from airbnb NYC listings. Stored in `public_data/airbnb_text.zip`
@@ -78,3 +85,28 @@ These are jupyter notebook-based activities to practice Python or other concepts
     - Obtaining top words per topic using `gensim`
     - Obtaining document-level topic probabilities using `gensim`
   - **Solutions code**: [06_textasdata_partII_topicmodeling_solution.ipynb](https://github.com/rebeccajohnson88/qss20_slides_activities/blob/main/activities/06_textasdata_partII_topicmodeling_solution.ipynb)
+
+
+### APIs/scraping
+
+- [07_apis_examplecode_blank.ipynb](https://github.com/rebeccajohnson88/qss20_slides_activities/blob/main/activities/07_apis_examplecode_blank.ipynb)
+
+  - **APIs**: NAEP data explorer; Yelp API
+  - **Concepts covered**:
+    - Writing a query
+    - Using `requests` to execute a query and return a response
+    - Processing a response
+    - Yelp Fusion API business search and reviews endpoints
+  - **Solutions code**: [07_apis_examplecode_solutions.ipynb](https://github.com/rebeccajohnson88/qss20_slides_activities/blob/main/activities/07_apis_examplecode_solutions.ipynb)
+
+- [07_apis_examplecode_twitter.ipynb](https://github.com/rebeccajohnson88/qss20_slides_activities/blob/main/activities/07_apis_examplecode_twitter.ipynb)
+
+ - **API**: `tweepy` wrapper for Twitter API
+ - **Concepts covered**:
+    - Authenticating
+    - Using `Cursor` class
+    - searching for tweets based on hashtag using `search` method
+    - extracting followers of an account using `followers` method
+    - extracting tweets from a specific user using `user_timeline` method
+
+
