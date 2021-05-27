@@ -108,6 +108,13 @@ These are jupyter notebook-based activities to practice Python or other concepts
     - extracting followers of an account using `followers` method
     - extracting tweets from a specific user using `user_timeline` method
 
+- [09_intro_scraping.ipynb](https://github.com/rebeccajohnson88/qss20_slides_activities/blob/main/activities/09_intro_scraping.ipynb)
+  - **Data**: DC due process hearings for special education; DOJ press releases
+  - **Concepts covered**:
+    - Parsing content using `BeautifulSoup`
+    - Extract links using `href` attribute
+    - Extracting other attributes
+
 ### SQL
 
 - [08_SQL_examplecode.ipynb](https://github.com/rebeccajohnson88/qss20_slides_activities/blob/main/activities/08_SQL_examplecode.ipynb)
