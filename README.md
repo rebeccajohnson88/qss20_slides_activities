@@ -1,6 +1,6 @@
 # QSS20 public repo
 
-This repo has content for the Spring 2021 iteration of QSS20: Modern Statistical Computing.
+This repo has content for the Spring 2021 and Winter 2022 iterations of QSS20: Modern Statistical Computing.
 
 ## Activities
 
