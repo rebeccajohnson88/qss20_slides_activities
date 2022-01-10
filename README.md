@@ -16,4 +16,5 @@ These are jupyter notebook-based activities to practice Python or other concepts
     - Recoding variables using `np.where`
     - Recoding variables using `np.select`
     - Recoding variables using `map` and dictionary
+  - **Helper slides**: [pandas_slides](https://github.com/rebeccajohnson88/qss20_slides_activities/blob/main/slides/w22_slides/qss20_w22_unit2_pandas.pdf)
 
