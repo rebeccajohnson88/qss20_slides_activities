@@ -21,10 +21,10 @@ These are jupyter notebook-based activities to practice Python or other concepts
   - **Responses to class questions**: [00_classquestions.ipynb](https://github.com/rebeccajohnson88/qss20_slides_activities/blob/main/activities/w22_activities/00_classquestions.ipynb)
 
 - [01_example_plotting.ipynb](https://github.com/rebeccajohnson88/qss20_slides_activities/blob/main/activities/w22_activities/01_example_plotting.ipynb)
- - **Data**: DC crime reports in 2020
- - **Concepts covered**:
-  - Plotting using the `plotnine` wrapper for R's `ggplot2`
-  - Types of plots covered: line graph; bar chart; facetted line; line grouped/colored by attribute
+  - **Data**: DC crime reports in 2020
+  - **Concepts covered**:
+    - Plotting using the `plotnine` wrapper for R's `ggplot2`
+    - Types of plots covered: line graph; bar chart; facetted line; line grouped/colored by attribute
 
 
 - [02_loopsfunctions.ipynb](https://github.com/rebeccajohnson88/qss20_slides_activities/blob/main/activities/w22_activities/02_loopsfunctions.ipynb)
