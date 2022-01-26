@@ -1,8 +1,5 @@
-# QSS20 public repo
 
-This repo has content for the Spring 2021 and Winter 2022 iterations of QSS20: Modern Statistical Computing.
-
-## Activities
+## Activities in Spring 2021
 
 These are jupyter notebook-based activities to practice Python or other concepts:
 
