@@ -20,3 +20,34 @@ These are jupyter notebook-based activities to practice Python or other concepts
   - **Solutions**: [00_pandas_datacleaning_solutions.ipynb](https://github.com/rebeccajohnson88/qss20_slides_activities/blob/main/activities/w22_activities/solutions/00_pandas_datacleaning_solutions.ipynb)
   - **Responses to class questions**: [00_classquestions.ipynb](https://github.com/rebeccajohnson88/qss20_slides_activities/blob/main/activities/w22_activities/00_classquestions.ipynb)
 
+- [01_example_plotting.ipynb](https://github.com/rebeccajohnson88/qss20_slides_activities/blob/main/activities/w22_activities/01_example_plotting.ipynb)
+ - **Data**: DC crime reports in 2020
+ - **Concepts covered**:
+  - Plotting using the `plotnine` wrapper for R's `ggplot2`
+  - Types of plots covered: line graph; bar chart; facetted line; line grouped/colored by attribute
+
+
+- [02_loopsfunctions.ipynb](https://github.com/rebeccajohnson88/qss20_slides_activities/blob/main/activities/w22_activities/02_loopsfunctions.ipynb)
+  - **Data**: DC crime reports in 2020
+  - **Concepts covered**:
+    - `for loop` to find matches within a broader pool of data
+    - user-defined function to find matches within a broader pool of data
+    - using list comprehension to apply a function iteratively over list elements 
+
+
+- [03_merging_exact_blank.ipynb](https://github.com/rebeccajohnson88/qss20_slides_activities/blob/main/activities/w22_activities/03_merging_exact_blank.ipynb)
+  - **Data**: San Diego business tax certificate data; Census NAICS code data
+  - **Concepts covered**:
+    - Data cleaning such as extraneous rows/columns
+    - Recasting join cols to allow join (e.g., converting `int` to character)
+    - `pd.merge` and different types of exact joins using join keys
+    - Post-merge diagnostics
+
+- [04_basicregex_blank.ipynb](https://github.com/rebeccajohnson88/qss20_slides_activities/blob/main/activities/w22_activities/04_basicregex_blank.ipynb)
+   - **Data**: Food Research Action Center (FRAC) data on district and school's election of community eligibility provision (CEP) for Free or Reduced Price Lunch (FRPL)
+   - **Concepts covered**: 
+     - Pattern construction using `re` module
+     - `re.sub` for replacement
+     - `re.findall` 
+     - `re.match` and how to work with match objects using `.group()`
+     - Throughout, review of list comprehension 
