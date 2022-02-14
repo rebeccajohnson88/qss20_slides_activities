@@ -51,3 +51,46 @@ These are jupyter notebook-based activities to practice Python or other concepts
      - `re.findall` 
      - `re.match` and how to work with match objects using `.group()`
      - Throughout, review of list comprehension 
+
+- [05_merging_fuzzy_activity_blank.ipynb](https://github.com/rebeccajohnson88/qss20_slides_activities/blob/main/activities/w22_activities/05_merging_fuzzy_activity_blank.ipynb)
+  - **Data**: public SD business tax certificate data; public PPP loan data on large loans
+  - **Concepts covered**:
+    - Regex for string cleaning
+    - String distance/similarity measures: edit distance, jaccard, jarowinkler
+    - `recordlinkage` package and steps in fuzzy/probabilistic matching
+  - **Example code**: [05_merging_fuzzy_codeexample.ipynb](https://github.com/rebeccajohnson88/qss20_slides_activities/blob/main/activities/w22_activities/solutions/05_merging_fuzzy_codeexample.ipynb)
+  - **Solutions for activity**: [05_merging_fuzzy_activity_solutions.ipynb](https://github.com/rebeccajohnson88/qss20_slides_activities/blob/main/activities/w22_activities/solutions/05_merging_fuzzy_activity_solutions.ipynb)
+
+### Intro to text as data
+
+- [06_textasdata_partI_textmining_examplecode.ipynb](https://github.com/rebeccajohnson88/qss20_slides_activities/blob/main/activities/w22_activities/solutions/06_textasdata_partI_textmining_examplecode.ipynb)
+
+  - **Data**: simplified data from airbnb NYC listings. Stored in `public_data/airbnb_text.zip`
+  - **Concepts covered**:
+    - Scoring based on dictionary of words
+    - Part of speech tagging using `nltk`
+    - Named entity tagging using `spaCy`
+    - Sentiment analysis using `VADER`
+
+- [06_textasdata_partII_topicmodeling.ipynb](https://github.com/rebeccajohnson88/qss20_slides_activities/blob/main/activities/w22_activities/06_textasdata_partII_topicmodeling.ipynb)
+  - **Data**: simplified airbnb listings
+  - **Concepts covered**:
+    - Using `sklearn` to create a unigram document-term matrix
+    - LDA topic modeling using `gensim`
+    - Visualizing topics 
+    - Obtaining top words per topic using `gensim`
+    - Obtaining document-level topic probabilities using `gensim`
+
+### APIs/scraping
+
+- [07_apispart1_examplecode_blank.ipynb](https://github.com/rebeccajohnson88/qss20_slides_activities/blob/main/activities/w22_activities/07_apispart1_examplecode_blank.ipynb)
+
+  - **APIs**: NAEP data explorer; Yelp API
+  - **Concepts covered**:
+    - Writing a query
+    - Using `requests` to execute a query and return a response
+    - Processing a response
+    - Yelp Fusion API business search and reviews endpoints
+
+
+
