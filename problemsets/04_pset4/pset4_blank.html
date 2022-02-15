@@ -13126,7 +13126,7 @@ div#notebook {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Text-analysis-of-DOJ-press-releases">Text analysis of DOJ press releases<a class="anchor-link" href="#Text-analysis-of-DOJ-press-releases">&#182;</a></h1><p>For background, here's the Kaggle that contains the data: <a href="https://www.kaggle.com/jbencina/department-of-justice-20092018-press-releases">https://www.kaggle.com/jbencina/department-of-justice-20092018-press-releases</a></p>
+<h1 id="Text-analysis-of-DOJ-press-releases-(52-points)">Text analysis of DOJ press releases (52 points)<a class="anchor-link" href="#Text-analysis-of-DOJ-press-releases-(52-points)">&#182;</a></h1><p>For background, here's the Kaggle that contains the data: <a href="https://www.kaggle.com/jbencina/department-of-justice-20092018-press-releases">https://www.kaggle.com/jbencina/department-of-justice-20092018-press-releases</a></p>
 <p>Here's the code the dataset owner used to scrape those press releases here if you're interested: <a href="https://github.com/jbencina/dojreleases">https://github.com/jbencina/dojreleases</a></p>
 
 </div>
@@ -13261,7 +13261,7 @@ div#notebook {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="1.-Tagging-and-sentiment-scoring-(10-points)">1. Tagging and sentiment scoring (10 points)<a class="anchor-link" href="#1.-Tagging-and-sentiment-scoring-(10-points)">&#182;</a></h2><p>Focus on the following press release: <code>id</code> == "17-2014" about this pharmaceutical kickback prosecution: <a href="https://www.forbes.com/sites/michelatindera/2017/11/16/fentanyl-billionaire-john-kapoor-to-plead-not-guilty-in-opioid-kickback-case/?sh=21b8574d6c6c">https://www.forbes.com/sites/michelatindera/2017/11/16/fentanyl-billionaire-john-kapoor-to-plead-not-guilty-in-opioid-kickback-case/?sh=21b8574d6c6c</a></p>
+<h2 id="1.-Tagging-and-sentiment-scoring-(17-points)">1. Tagging and sentiment scoring (17 points)<a class="anchor-link" href="#1.-Tagging-and-sentiment-scoring-(17-points)">&#182;</a></h2><p>Focus on the following press release: <code>id</code> == "17-2014" about this pharmaceutical kickback prosecution: <a href="https://www.forbes.com/sites/michelatindera/2017/11/16/fentanyl-billionaire-john-kapoor-to-plead-not-guilty-in-opioid-kickback-case/?sh=21b8574d6c6c">https://www.forbes.com/sites/michelatindera/2017/11/16/fentanyl-billionaire-john-kapoor-to-plead-not-guilty-in-opioid-kickback-case/?sh=21b8574d6c6c</a></p>
 <p>The <code>contents</code> column is the one we're treating as a document. You may need to to convert it from a pandas series to a single string.</p>
 <p>We'll call the raw string of this press release <code>pharma</code></p>
 
@@ -13326,7 +13326,7 @@ div#notebook {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="1.2-named-entity-recognition-(3-points)">1.2 named entity recognition (3 points)<a class="anchor-link" href="#1.2-named-entity-recognition-(3-points)">&#182;</a></h2><p><strong>Resources</strong>:</p>
+<h2 id="1.2-named-entity-recognition-(4-points)">1.2 named entity recognition (4 points)<a class="anchor-link" href="#1.2-named-entity-recognition-(4-points)">&#182;</a></h2><p><strong>Resources</strong>:</p>
 <ul>
 <li>For parts A and B: named entity recognition part of this code: <a href="https://github.com/rebeccajohnson88/qss20_slides_activities/blob/main/activities/w22_activities/solutions/06_textasdata_partI_textmining_examplecode.ipynb">https://github.com/rebeccajohnson88/qss20_slides_activities/blob/main/activities/w22_activities/solutions/06_textasdata_partI_textmining_examplecode.ipynb</a></li>
 <li>For part E, re.search and re.findall examples here for filtering to ones containing year (multiple approaches; some need not involve <code>re</code>): <a href="https://github.com/rebeccajohnson88/qss20_slides_activities/blob/main/activities/w22_activities/solutions/04_basicregex_solutions.ipynb">https://github.com/rebeccajohnson88/qss20_slides_activities/blob/main/activities/w22_activities/solutions/04_basicregex_solutions.ipynb</a></li>
@@ -13782,7 +13782,7 @@ div#notebook {
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h1 id="5.-Optional-extra-credit-2-(6-points)">5. Optional extra credit 2 (6 points)<a class="anchor-link" href="#5.-Optional-extra-credit-2-(6-points)">&#182;</a></h1><p>Review the scraping code here: <a href="https://github.com/jbencina/dojreleases/blob/master/scraper.py">https://github.com/jbencina/dojreleases/blob/master/scraper.py</a></p>
-<p>Write code to scrape press releases from more recent years from the DOJ website than the years available in the combined.json (which stops around 2018 or 2019) and produce a visualization of how top words or themes in the press releases changed across the Trump administration (2016-December 2020) versus Biden administration (January 2021 onwards)</p>
+<p>Write code to scrape press releases from more recent years from the DOJ website than the years available in the combined.json (which stops around 2018 or 2019) and produce a visualization of how top words or topics in the press releases changed across the Trump administration (2016-December 2020) versus Biden administration (January 2021 onwards)</p>
 
 </div>
 </div>
