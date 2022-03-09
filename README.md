@@ -8,7 +8,7 @@ These are jupyter notebook-based activities to practice Python or other concepts
 
 ### Data wrangling using pandas
 
-- [00_pandas_datacleaning_blank.ipynb.ipynb](https://github.com/rebeccajohnson88/qss20_slides_activities/blob/main/activities/w22_activities/00_pandas_datacleaning_blank.ipynb)
+- [00_pandas_datacleaning_blank.ipynb](https://github.com/rebeccajohnson88/qss20_slides_activities/blob/main/activities/w22_activities/00_pandas_datacleaning_blank.ipynb)
   - **Data**: DC crime reports in 2020
   - **Concepts covered**:
     - Aggregation using `groupby` and `agg`
