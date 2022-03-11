@@ -2,11 +2,11 @@
 
 This repo has content for the Spring 2021 and Winter 2022 iterations of QSS20: Modern Statistical Computing at Dartmouth College.
 
-## Activities (Winter '22)
+## Slides and Activities (Winter '22)
 
-These are jupyter notebook-based activities to practice Python or other concepts:
+These are jupyter notebook-based activities to practice Python or other concepts, along with accompanying slides:
 
-### Data wrangling using pandas
+### Data wrangling, merging, and probabilistic linkage
 
 - [00_pandas_datacleaning_blank.ipynb](https://github.com/rebeccajohnson88/qss20_slides_activities/blob/main/activities/w22_activities/00_pandas_datacleaning_blank.ipynb)
   - **Data**: DC crime reports in 2020
@@ -33,7 +33,7 @@ These are jupyter notebook-based activities to practice Python or other concepts
     - `for loop` to find matches within a broader pool of data
     - user-defined function to find matches within a broader pool of data
     - using list comprehension to apply a function iteratively over list elements 
-   -  **Slides**:[03_qss20_w22_unit3_loopvfunction.pdf](https://github.com/rebeccajohnson88/qss20_slides_activities/blob/main/slides/w22_slides/03_qss20_w22_unit3_loopvfunction.pdf)
+   -  **Slides**: [03_qss20_w22_unit3_loopvfunction.pdf](https://github.com/rebeccajohnson88/qss20_slides_activities/blob/main/slides/w22_slides/03_qss20_w22_unit3_loopvfunction.pdf)
    -  **Solutions**: [02_loopsfunctions_solutions.ipynb](https://github.com/rebeccajohnson88/qss20_slides_activities/blob/main/activities/w22_activities/solutions/02_loopsfunctions_solutions.ipynb)
 
 
@@ -66,10 +66,11 @@ These are jupyter notebook-based activities to practice Python or other concepts
     - Regex for string cleaning
     - String distance/similarity measures: edit distance, jaccard, jarowinkler
     - `recordlinkage` package and steps in fuzzy/probabilistic matching
+  - **Slides**: [07_qss20_w22_unit7_fuzzymatching.pdf](https://github.com/rebeccajohnson88/qss20_slides_activities/blob/main/slides/w22_slides/07_qss20_w22_unit7_fuzzymatching.pdf)
   - **Example code**: [05_merging_fuzzy_codeexample.ipynb](https://github.com/rebeccajohnson88/qss20_slides_activities/blob/main/activities/w22_activities/solutions/05_merging_fuzzy_codeexample.ipynb)
   - **Solutions for activity**: [05_merging_fuzzy_activity_solutions.ipynb](https://github.com/rebeccajohnson88/qss20_slides_activities/blob/main/activities/w22_activities/solutions/05_merging_fuzzy_activity_solutions.ipynb)
 
-### Intro to text as data
+### Text as data
 
 - [06_textasdata_partI_textmining_examplecode.ipynb](https://github.com/rebeccajohnson88/qss20_slides_activities/blob/main/activities/w22_activities/solutions/06_textasdata_partI_textmining_examplecode.ipynb)
 
@@ -79,6 +80,8 @@ These are jupyter notebook-based activities to practice Python or other concepts
     - Part of speech tagging using `nltk`
     - Named entity tagging using `spaCy`
     - Sentiment analysis using `VADER`
+   - **Slides**: [08_qss20_w22_unit8_textasdata.pdf](https://github.com/rebeccajohnson88/qss20_slides_activities/blob/main/slides/w22_slides/08_qss20_w22_unit8_textasdata.pdf)
+
 
 - [06_textasdata_partII_topicmodeling.ipynb](https://github.com/rebeccajohnson88/qss20_slides_activities/blob/main/activities/w22_activities/06_textasdata_partII_topicmodeling.ipynb)
   - **Data**: simplified airbnb listings
@@ -88,8 +91,15 @@ These are jupyter notebook-based activities to practice Python or other concepts
     - Visualizing topics 
     - Obtaining top words per topic using `gensim`
     - Obtaining document-level topic probabilities using `gensim`
+  - **Slides**: [08_qss20_w22_unit8_textasdata.pdf](https://github.com/rebeccajohnson88/qss20_slides_activities/blob/main/slides/w22_slides/08_qss20_w22_unit8_textasdata.pdf)
+  - **Solutions**: [06_textasdata_partII_topicmodeling_solution.ipynb](https://github.com/rebeccajohnson88/qss20_slides_activities/blob/main/activities/w22_activities/solutions/06_textasdata_partII_topicmodeling_solution.ipynb)
 
-### APIs/scraping
+### Intro to SQL
+
+
+
+
+### APIs, intro to supervised machine learning, static and interactive geo-visualization 
 
 - [07_apispart1_examplecode_blank.ipynb](https://github.com/rebeccajohnson88/qss20_slides_activities/blob/main/activities/w22_activities/07_apispart1_examplecode_blank.ipynb)
 
@@ -99,20 +109,29 @@ These are jupyter notebook-based activities to practice Python or other concepts
     - Using `requests` to execute a query and return a response
     - Processing a response
     - Yelp Fusion API business search and reviews endpoints
+  - **Slides**: [09_qss20_w22_unit9_APIs.pdf](https://github.com/rebeccajohnson88/qss20_slides_activities/blob/main/slides/w22_slides/09_qss20_w22_unit9_APIs.pdf)
 
-- [07_apis_examplecode_twitter.ipynb](https://github.com/rebeccajohnson88/qss20_slides_activities/blob/main/activities/07_apis_examplecode_twitter.ipynb)
+- [08_apis_twitter_essentialendpoint_examplecode.ipynb](https://github.com/rebeccajohnson88/qss20_slides_activities/blob/main/activities/w22_activities/solutions/08_apis_twitter_essentialendpoint_examplecode.ipynb)
   - **API**: `tweepy` wrapper for Twitter API
   - **Concepts covered**:
     - Authenticating
-    - Using `Cursor` class
-    - searching for tweets based on hashtag using `search` method
-    - extracting followers of an account using `followers` method
-    - extracting tweets from a specific user using `user_timeline` method
+    - searching for tweets based on hashtag using `search_recent_tweets` method
+    - searching for attributes of users tweeting
+    - extracting followers of an account using `get_users_followers` method
+    - extracting tweets from a specific user using `get_users_tweets` method
+   - **Slides**: [09_qss20_w22_unit9_APIs.pdf](https://github.com/rebeccajohnson88/qss20_slides_activities/blob/main/slides/w22_slides/09_qss20_w22_unit9_APIs.pdf)
+   - **Blank activity**: [08_apis_twitter_activity_blank.ipynb](https://github.com/rebeccajohnson88/qss20_slides_activities/blob/main/activities/w22_activities/08_apis_twitter_activity_blank.ipynb)
+   - **Activity solutions**: [08_apis_twitter_activity_solutions.ipynb](https://github.com/rebeccajohnson88/qss20_slides_activities/blob/main/activities/w22_activities/solutions/08_apis_twitter_activity_solutions.ipynb)
 
-- [09_intro_scraping.ipynb](https://github.com/rebeccajohnson88/qss20_slides_activities/blob/main/activities/09_intro_scraping.ipynb)
-  - **Data**: DC due process hearings for special education; DOJ press releases
+- [09_binaryclassification_activity_blank.ipynb](https://github.com/rebeccajohnson88/qss20_slides_activities/blob/main/activities/w22_activities/09_binaryclassification_activity_blank.ipynb)
+  - **Data**: Unstructured yelp reviews with labeled sentiment scores 
   - **Concepts covered**:
-    - Parsing content using `BeautifulSoup`
-    - Extract links using `href` attribute
-    - Extracting other attributes
+    - Tree-based methods versus regularization
+    - Preprocessing to prepare for a model
+    - Train-test split
+    - (Basic) hyperparameter tuning
+    - Model evaluation
+   - **Slides**: [10_qss20_w22_unit10_introML.pdf](https://github.com/rebeccajohnson88/qss20_slides_activities/blob/main/slides/w22_slides/10_qss20_w22_unit10_introML.pdf)
+   - **Activity solutions**: [09_binaryclassification_activity_solutions.ipynb](https://github.com/rebeccajohnson88/qss20_slides_activities/blob/main/activities/w22_activities/solutions/09_binaryclassification_activity_solutions.ipynb)
+
 
