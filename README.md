@@ -16,7 +16,7 @@ These are jupyter notebook-based activities to practice Python or other concepts
     - Recoding variables using `np.where`
     - Recoding variables using `np.select`
     - Recoding variables using `map` and dictionary
-  - **Helper slides**: [qss20_w22_unit2_pandas.pdf](https://github.com/rebeccajohnson88/qss20_slides_activities/blob/main/slides/w22_slides/qss20_w22_unit2_pandas.pdf)
+  - **Slides**: [qss20_w22_unit2_pandas.pdf](https://github.com/rebeccajohnson88/qss20_slides_activities/blob/main/slides/w22_slides/qss20_w22_unit2_pandas.pdf)
   - **Solutions**: [00_pandas_datacleaning_solutions.ipynb](https://github.com/rebeccajohnson88/qss20_slides_activities/blob/main/activities/w22_activities/solutions/00_pandas_datacleaning_solutions.ipynb)
   - **Responses to class questions**: [00_classquestions.ipynb](https://github.com/rebeccajohnson88/qss20_slides_activities/blob/main/activities/w22_activities/00_classquestions.ipynb)
 
@@ -33,6 +33,8 @@ These are jupyter notebook-based activities to practice Python or other concepts
     - `for loop` to find matches within a broader pool of data
     - user-defined function to find matches within a broader pool of data
     - using list comprehension to apply a function iteratively over list elements 
+   -  **Slides**:[03_qss20_w22_unit3_loopvfunction.pdf](https://github.com/rebeccajohnson88/qss20_slides_activities/blob/main/slides/w22_slides/03_qss20_w22_unit3_loopvfunction.pdf)
+   -  **Solutions**: [02_loopsfunctions_solutions.ipynb](https://github.com/rebeccajohnson88/qss20_slides_activities/blob/main/activities/w22_activities/solutions/02_loopsfunctions_solutions.ipynb)
 
 
 - [03_merging_exact_blank.ipynb](https://github.com/rebeccajohnson88/qss20_slides_activities/blob/main/activities/w22_activities/03_merging_exact_blank.ipynb)
@@ -42,6 +44,9 @@ These are jupyter notebook-based activities to practice Python or other concepts
     - Recasting join cols to allow join (e.g., converting `int` to character)
     - `pd.merge` and different types of exact joins using join keys
     - Post-merge diagnostics
+   - **Slides**: [05_qss20_w22_unit5_mergingexact.pdf](https://github.com/rebeccajohnson88/qss20_slides_activities/blob/main/slides/w22_slides/05_qss20_w22_unit5_mergingexact.pdf)
+   - **Solutions**: [03_merging_exact_solutions.ipynb](https://github.com/rebeccajohnson88/qss20_slides_activities/blob/main/activities/w22_activities/solutions/03_merging_exact_solutions.ipynb)
+
 
 - [04_basicregex_blank.ipynb](https://github.com/rebeccajohnson88/qss20_slides_activities/blob/main/activities/w22_activities/04_basicregex_blank.ipynb)
    - **Data**: Food Research Action Center (FRAC) data on district and school's election of community eligibility provision (CEP) for Free or Reduced Price Lunch (FRPL)
@@ -51,6 +56,9 @@ These are jupyter notebook-based activities to practice Python or other concepts
      - `re.findall` 
      - `re.match` and how to work with match objects using `.group()`
      - Throughout, review of list comprehension 
+    - **Slides**: [06_qss20_w22_unit6_regex.pdf](https://github.com/rebeccajohnson88/qss20_slides_activities/blob/main/slides/w22_slides/06_qss20_w22_unit6_regex.pdf)
+    - **Example code**: [05_merging_fuzzy_codeexample.ipynb](https://github.com/rebeccajohnson88/qss20_slides_activities/blob/main/activities/w22_activities/solutions/05_merging_fuzzy_codeexample.ipynb)
+  - **Solutions for activity**: [https://github.com/rebeccajohnson88/qss20_slides_activities/blob/main/activities/w22_activities/solutions/04_basicregex_solutions.ipynb](https://github.com/rebeccajohnson88/qss20_slides_activities/blob/main/activities/w22_activities/solutions/04_basicregex_solutions.ipynb)
 
 - [05_merging_fuzzy_activity_blank.ipynb](https://github.com/rebeccajohnson88/qss20_slides_activities/blob/main/activities/w22_activities/05_merging_fuzzy_activity_blank.ipynb)
   - **Data**: public SD business tax certificate data; public PPP loan data on large loans
@@ -92,5 +100,19 @@ These are jupyter notebook-based activities to practice Python or other concepts
     - Processing a response
     - Yelp Fusion API business search and reviews endpoints
 
+- [07_apis_examplecode_twitter.ipynb](https://github.com/rebeccajohnson88/qss20_slides_activities/blob/main/activities/07_apis_examplecode_twitter.ipynb)
+  - **API**: `tweepy` wrapper for Twitter API
+  - **Concepts covered**:
+    - Authenticating
+    - Using `Cursor` class
+    - searching for tweets based on hashtag using `search` method
+    - extracting followers of an account using `followers` method
+    - extracting tweets from a specific user using `user_timeline` method
 
+- [09_intro_scraping.ipynb](https://github.com/rebeccajohnson88/qss20_slides_activities/blob/main/activities/09_intro_scraping.ipynb)
+  - **Data**: DC due process hearings for special education; DOJ press releases
+  - **Concepts covered**:
+    - Parsing content using `BeautifulSoup`
+    - Extract links using `href` attribute
+    - Extracting other attributes
 
