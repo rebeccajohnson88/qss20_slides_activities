@@ -85,18 +85,28 @@ These are jupyter notebook-based activities to practice Python or other concepts
 
 - [06_textasdata_partII_topicmodeling.ipynb](https://github.com/rebeccajohnson88/qss20_slides_activities/blob/main/activities/w22_activities/06_textasdata_partII_topicmodeling.ipynb)
   - **Data**: simplified airbnb listings
-  - **Concepts covered**:
+  - **Concepts covered (`MySQL` database engine)**:
     - Using `sklearn` to create a unigram document-term matrix
     - LDA topic modeling using `gensim`
     - Visualizing topics 
     - Obtaining top words per topic using `gensim`
     - Obtaining document-level topic probabilities using `gensim`
-  - **Slides**: [08_qss20_w22_unit8_textasdata.pdf](https://github.com/rebeccajohnson88/qss20_slides_activities/blob/main/slides/w22_slides/08_qss20_w22_unit8_textasdata.pdf)
-  - **Solutions**: [06_textasdata_partII_topicmodeling_solution.ipynb](https://github.com/rebeccajohnson88/qss20_slides_activities/blob/main/activities/w22_activities/solutions/06_textasdata_partII_topicmodeling_solution.ipynb)
+  - **Slides**: [11_qss20_w22_unit11_SQL.pdf](https://github.com/rebeccajohnson88/qss20_slides_activities/blob/main/slides/w22_slides/11_qss20_w22_unit11_SQL.pdf)
+  - **Blank activity**: [10_SQL_activity_blank.ipynb](https://github.com/rebeccajohnson88/qss20_slides_activities/blob/main/activities/w22_activities/10_SQL_activity_blank.ipynb)
+  - **Solutions**: [10_SQL_activity_solutions.ipynb](https://github.com/rebeccajohnson88/qss20_slides_activities/blob/main/activities/w22_activities/solutions/10_SQL_activity_solutions.ipynb)
 
 ### Intro to SQL
 
-
+- [10_SQL_examplecode.ipynb](https://github.com/rebeccajohnson88/qss20_slides_activities/blob/main/activities/w22_activities/solutions/10_SQL_examplecode.ipynb)
+  - **Data**: database form of Cook County SAO sentencing data. Two tables: `caseinit` (case initiations); `divert` (case diversions)
+  - **Concepts covered**:
+    - Row and column filtering
+    - Subqueries
+    - Group by/aggregation 
+    - Basic joins/column and table aliasing 
+  - **Slides**: [11_qss20_w22_unit11_SQL.pdf](https://github.com/rebeccajohnson88/qss20_slides_activities/blob/main/slides/w22_slides/11_qss20_w22_unit11_SQL.pdf)
+  - **Blank activity**: [10_SQL_activity_blank.ipynb](https://github.com/rebeccajohnson88/qss20_slides_activities/blob/main/activities/w22_activities/10_SQL_activity_blank.ipynb)
+  - **Activity solutions**: [10_SQL_activity_solutions.ipynb](https://github.com/rebeccajohnson88/qss20_slides_activities/blob/main/activities/w22_activities/solutions/10_SQL_activity_solutions.ipynb)
 
 
 ### APIs, intro to supervised machine learning, static and interactive geo-visualization 
@@ -133,5 +143,16 @@ These are jupyter notebook-based activities to practice Python or other concepts
     - Model evaluation
    - **Slides**: [10_qss20_w22_unit10_introML.pdf](https://github.com/rebeccajohnson88/qss20_slides_activities/blob/main/slides/w22_slides/10_qss20_w22_unit10_introML.pdf)
    - **Activity solutions**: [09_binaryclassification_activity_solutions.ipynb](https://github.com/rebeccajohnson88/qss20_slides_activities/blob/main/activities/w22_activities/solutions/09_binaryclassification_activity_solutions.ipynb)
+
+
+- [11_geoviz_interact_activity_blank.ipynb](https://github.com/rebeccajohnson88/qss20_slides_activities/blob/main/activities/w22_activities/11_geoviz_interact_activity_blank.ipynb)
+  - **Data**: Geocoded addresses of employers of temporary agricultural workers and TIGER shapefiles for states/counties
+  - **Concepts covered**:
+    - Spatial points versus spatial polygons
+    - Reading in spatial data
+    - Joining and manipulating spatial data using `geopandas`
+    - Static plots of geodata using `plotnine`
+    - Interactive plots of geodata using `altair`
+   - **Activity solutions**: [11_geoviz_interact_activity_solutions.ipynb](https://github.com/rebeccajohnson88/qss20_slides_activities/blob/main/activities/w22_activities/solutions/11_geoviz_interact_activity_solutions.ipynb)
 
 
